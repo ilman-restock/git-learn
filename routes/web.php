@@ -13,6 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Front End About
+Route::get('/', 'AboutController@front')->name('about.front');
+
+// Front End Resume
+Route::get('/resume', 'ResumeController@front')->name('resume.front');
+
+// Front End Portfolio
+Route::get('/portfolio', 'PortfolioController@front')->name('portfolio.front');
+
+// Front End Blog
+Route::get('/blog', 'BlogController@front')->name('blog.front');
+
+// Front End Contact
+Route::get('/contact', 'ContactController@front')->name('contact.front');
