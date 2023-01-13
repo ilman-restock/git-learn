@@ -17,7 +17,7 @@ class AboutController extends Controller
             'title' => 'About'
         ];
 
-        return view('layouts.frontend.about', $show);
+        return view('frontend.about', $show);
     }
 
     /**

@@ -17,7 +17,7 @@ class ResumeController extends Controller
             'title' => 'Resume'
         ];
 
-        return view('layouts.frontend.resume', $show);
+        return view('frontend.resume', $show);
     }
 
     /**

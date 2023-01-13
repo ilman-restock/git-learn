@@ -17,7 +17,7 @@ class BlogController extends Controller
             'title' => 'Blog'
         ];
 
-        return view('layouts.frontend.blog', $show);
+        return view('frontend.blog', $show);
     }
 
     /**

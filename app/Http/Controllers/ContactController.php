@@ -17,7 +17,7 @@ class ContactController extends Controller
             'title' => 'Contact'
         ];
 
-        return view('layouts.frontend.contact', $show);
+        return view('frontend.contact', $show);
     }
 
     /**

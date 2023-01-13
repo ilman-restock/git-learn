@@ -17,7 +17,7 @@ class PortfolioController extends Controller
             'title' => 'Portfolio'
         ];
 
-        return view('layouts.frontend.portfolio', $show);
+        return view('frontend.portfolio', $show);
     }
 
     /**

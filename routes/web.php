@@ -27,3 +27,14 @@ Route::get('/blog', 'BlogController@front')->name('blog.front');
 
 // Front End Contact
 Route::get('/contact', 'ContactController@front')->name('contact.front');
+
+
+// Backend
+Route::prefix('admin')->group(function () {
+    Route::get('/', 'AuthController@index')->name('admin.auth');
+    Route::post('/verif-auth', 'AuthController@auth')->name('login.admin');
+
+    Route::middleware('auth')->group(function () {  
+        Route::get('dashboard', 'DashboardController@index')->name('dashboard');
+    });
+});
