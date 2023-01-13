@@ -32,4 +32,9 @@ class AuthController extends Controller
     {
         return 'ini bakal konflik';
     }
+
+    public function dsadassdasdas()
+    {
+        echo 'adsadasd';
+    }
 }
