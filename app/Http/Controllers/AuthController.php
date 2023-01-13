@@ -37,4 +37,9 @@ class AuthController extends Controller
     {
         echo 'adsadasd';
     }
+
+    public function dsadasdsa()
+    {
+        echo 'dddddddddd';
+    }
 }
