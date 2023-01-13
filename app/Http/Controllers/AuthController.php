@@ -30,9 +30,6 @@ class AuthController extends Controller
 
     public function dsadasd()
     {
-        return "aaaa";
-    public function Conflict()
-    {
         return 'ini bakal konflik';
     }
 }
