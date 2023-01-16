@@ -29,4 +29,9 @@ class AuthController extends Controller
     {
         return 'ini bakal konflik';
     }
+
+    public function ForgotPassword()
+    {
+        # code...
+    }
 }
