@@ -44,4 +44,9 @@ class AuthController extends Controller
     {
         
     }
+
+    public function Merge()
+    {
+        # code...
+    }
 }
