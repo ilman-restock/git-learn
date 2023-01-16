@@ -34,4 +34,9 @@ class AuthController extends Controller
     {
         return "Aktivasi";
     }
+    
+    public function ForgotPassword()
+    {
+        
+    }
 }
