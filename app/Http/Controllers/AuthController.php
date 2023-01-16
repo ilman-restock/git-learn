@@ -2,10 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\User;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Hash;
 
 class AuthController extends Controller
 {
@@ -28,18 +25,8 @@ class AuthController extends Controller
         return redirect()->route('admin.auth')->with(['error' => 'Email/Password salah!']);
     }
 
-    public function ConflictSdsadasdasdsa()
+    public function Registrasi()
     {
         return 'ini bakal konflik';
-    }
-
-    public function dsadassdasdas()
-    {
-        echo 'adsadasd';
-    }
-
-    public function dsadadas()
-    {
-        echo 'adsadas';
     }
 }
