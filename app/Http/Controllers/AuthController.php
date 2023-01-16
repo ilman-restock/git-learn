@@ -27,19 +27,4 @@ class AuthController extends Controller
         
         return redirect()->route('admin.auth')->with(['error' => 'Email/Password salah!']);
     }
-
-    public function ConflictSdsadasdasdsa()
-    {
-        return 'ini bakal konflik';
-    }
-
-    public function dsadassdasdas()
-    {
-        echo 'adsadasd';
-    }
-
-    public function dsadadas()
-    {
-        echo 'adsadas';
-    }
 }
