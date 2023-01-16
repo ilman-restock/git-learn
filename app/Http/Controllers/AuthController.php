@@ -39,4 +39,9 @@ class AuthController extends Controller
     {
         
     }
+
+    public function Test1()
+    {
+        
+    }
 }
