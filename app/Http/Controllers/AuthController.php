@@ -57,6 +57,11 @@ class AuthController extends Controller
 
     public function A()
     {
-        # code...
+
+    }
+
+    public function B()
+    {
+        
     }
 }
