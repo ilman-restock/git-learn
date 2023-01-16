@@ -54,4 +54,9 @@ class AuthController extends Controller
     {
         # code...
     }
+
+    public function B()
+    {
+        # code...
+    }
 }
